@@ -55,3 +55,15 @@ def number_to_short_month_name(x):
         12 : "Dec"
     }
     return months [x]
+
+def volume_of_cube(x):
+    result = x**3
+    return result 
+
+def reverse_string(string):
+    reverse = string[::-1]
+    return reverse
+
+def fahrenheit_to_celsius(x):
+    temp_conversion = (x - 32)*(5/9)
+    return int(temp_conversion)
